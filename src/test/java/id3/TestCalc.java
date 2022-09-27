@@ -10,5 +10,10 @@ public void testadd(){
  int res = hello.add(10,20);
  assertEquals(30,res);
 }
+public void testsubtract(){
+ Calc hi = new Calc();
+ int res = hi.subtract(10,5);
+ assertEquals(5,res);
+}
 
 }
